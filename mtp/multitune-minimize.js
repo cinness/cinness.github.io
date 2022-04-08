@@ -60,7 +60,7 @@ mtp();
     tracktitle.innerHTML = tracks[2];
 
     var play = document.getElementById("play");
-    play.onmouseover = function() { this.style.opacity = "0.5"; };
+    play.onmouseover = function() { this.style.opacity = "1"; };
     play.onmouseout = function() { this.style.opacity = "1"; };
     play.style.display = "block";
     play.style.width = "0px";
@@ -71,7 +71,7 @@ mtp();
     play.style.cursor = "pointer";
 
     var pause = document.getElementById("pause");
-    pause.onmouseover = function() { this.style.opacity = "0.5"; };
+    pause.onmouseover = function() { this.style.opacity = "1"; };
     pause.onmouseout = function() { this.style.opacity = "1"; };
     pause.style.display = "none";
     pause.style.cursor = "pointer";
@@ -95,7 +95,7 @@ mtp();
     pause2.style.background = automatic[0];
 
     var skip = document.getElementById("skip");
-    skip.onmouseover = function() { this.style.opacity = "0.5"; };
+    skip.onmouseover = function() { this.style.opacity = "1"; };
     skip.onmouseout = function() { this.style.opacity = "1"; };
     skip.style.display = "block";
     skip.style.cursor = "pointer";
